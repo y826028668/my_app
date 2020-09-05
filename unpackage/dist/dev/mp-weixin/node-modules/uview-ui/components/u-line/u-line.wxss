@@ -1,0 +1,21 @@
+page.data-v-e778bab2,
+view.data-v-e778bab2,
+text.data-v-e778bab2,
+swiper.data-v-e778bab2,
+swiper-item.data-v-e778bab2,
+navigator.data-v-e778bab2 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+page.data-v-e778bab2 {
+  --themeColor: #f8544c;
+  font-size: 28rpx;
+}
+image.data-v-e778bab2 {
+  width: 100%;
+}
+.u-line.data-v-e778bab2 {
+  vertical-align: middle;
+}
+

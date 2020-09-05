@@ -1,0 +1,52 @@
+page,
+view,
+text,
+swiper,
+swiper-item,
+navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+page {
+  --themeColor: #f8544c;
+  font-size: 28rpx;
+}
+image {
+  width: 100%;
+}
+page {
+  height: 100%;
+}
+.user_order {
+  height: 100%;
+}
+.user_order .swiper {
+  height: calc(100% - 80rpx);
+}
+.user_order .swiper .scroll-view {
+  height: 100%;
+}
+.user_order .swiper .scroll-view .item {
+  padding: 10rpx 20rpx;
+  border-bottom: 1px solid #eee;
+  color: #666666;
+  line-height: 2;
+}
+.user_order .swiper .scroll-view .item .num,
+.user_order .swiper .scroll-view .item .price,
+.user_order .swiper .scroll-view .item .date {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.user_order .swiper .scroll-view .item .qian {
+  color: var(--themeColor);
+}
+.user_order .swiper .scroll-view .item .riqi {
+  color: #000;
+}
+

@@ -1,0 +1,59 @@
+// 首页样式
+.cate_wrap{
+	height: 190rpx;
+	display: flex;
+	justify-content: space-between;
+	.cate_item{
+		flex: 1;
+		padding: 20rpx;
+		.cate_item_img{
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+.floor_wrap{
+	padding: 0 20rpx;
+}
+.floor_item{
+	.title{
+		height: 60rpx;
+		margin-top: 20rpx;
+		image{
+			height: 100%;
+		}
+	}
+	.content{
+		height: 400rpx;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		.floor_item_a{
+			width: 33.333%;
+			.floor_item_img{
+				height: 100%;
+				width: 100%;
+			}
+			&:nth-child(1){
+				height: 100%;
+				border-right: 6rpx solid #fff;
+			}
+			&:nth-last-child(-n+4){
+				height: 50%;
+				border-left: 6rpx solid #fff;
+			}
+			&:nth-child(2),
+			&:nth-child(3){
+				border-right: 6rpx solid #fff;
+			}
+			&:nth-child(2),
+			&:nth-child(4){
+				border-bottom: 6rpx solid #fff;
+			}
+			&:nth-child(3),
+			&:nth-child(5){
+				border-top: 6rpx solid #fff;
+			}
+		}
+	}
+}

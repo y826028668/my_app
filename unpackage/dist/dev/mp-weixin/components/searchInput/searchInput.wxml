@@ -1,0 +1,1 @@
+<view class="search-input"><navigator class="search-content" url="/pages/search/search"><u-icon class="search" vue-id="5bd59ebc-1" name="search" bind:__l="__l"></u-icon>搜索</navigator></view>

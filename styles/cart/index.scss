@@ -1,0 +1,134 @@
+// 购物车样式
+.cart{
+	.address-btn{
+		text-align: center;
+		margin: 10rpx 0;
+	}
+	.user_info{
+		padding-left: 20rpx;
+		text-align: left;
+	}
+	.goods_wrap{
+		margin-bottom: 200rpx;
+		.title{
+			padding-left: 20rpx;
+			margin: 20rpx 0;
+			font-size: 36rpx;
+			line-height: 2;
+			border-top: 1px solid var(--themeColor);
+			border-bottom: 1px solid var(--themeColor);
+		}
+		.goods_list{
+			.goods_item{
+				padding: 20rpx 20rpx;
+				border-bottom: 1px solid #ccc;
+				display: flex;
+				.select_group,
+				.img_wrap{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.select_group{
+					flex: 2;
+				}
+				.img_wrap{
+					flex: 4;
+					image{
+						width: 70%;
+					}
+				}
+				.right_content{
+					flex: 8;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					.goods_title{
+						font-size: 24rpx;
+						color: #666;
+						display: -webkit-box;
+						overflow: hidden;
+						-webkit-box-orient: vertical;
+						-webkit-line-clamp: 2;
+					}
+					.price_info{
+						display: flex;
+						justify-content: space-between;
+						.price{
+							font-weight: 600;
+							color: var(--themeColor);
+						}
+						.goods_number{
+							.delete{
+								margin-left: 20rpx;
+								.u-icon{
+									line-height: 46rpx;
+								}
+							}
+							.minus,
+							.plus,
+							.num{
+								display: inline-block;
+								height: 46rpx;
+								text-align: center;
+								line-height: 46rpx;
+							}
+							.minus,
+							.plus{
+								width: 46rpx;
+								border: 1px solid #ccc;
+								color: #666;
+								&:active{
+									background: #ccc;
+									color: #fff;
+								}
+							}
+							.num{
+								padding: 0 20rpx;
+							}
+						}
+					}
+				}
+			}
+		}
+		.payment{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			padding-left: 20rpx;
+			width: 100%;
+			border-top: 1px solid #ccc;
+			background: #fff;
+			display: flex;
+			.select_group,
+			.clearing{
+				display: flex;
+				align-items: center;
+			}
+			.select_group{
+				flex: 1.5;
+			}
+			.total{
+				flex: 1.5;
+				text-align: right;
+				padding-right: 20rpx;
+				.t{
+					font-size: 34rpx;
+					color: var(--themeColor);
+					font-weight: 600;
+				}
+				.yunfei{
+					font-size: 26rpx;
+				}
+			}
+			.clearing{
+				flex: 1;
+				justify-content: center;
+				font-size: 36rpx;
+				font-weight: 500;
+				color: #fff;
+				background: var(--themeColor);
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+// 收藏页样式
+.collect{
+	.collect_list{
+		.item{
+			margin-bottom: 30rpx;
+			padding-bottom: 10rpx;
+			border-bottom: 1px solid #ccc;
+			.item_a{
+				display: flex;
+			}
+			.img_wrap{
+				flex: 3;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.img{
+					width: 70%;
+					height: 70%;
+				}
+			}
+			.content{
+				flex: 4;
+				padding: 30rpx 0;
+				padding-right: 20rpx;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				.title{
+					display: -webkit-box;
+					overflow: hidden;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+				}
+				.price{
+					color: var(--themeColor);
+				}
+			}
+		}
+	}
+}

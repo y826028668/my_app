@@ -1,0 +1,38 @@
+// 商品列表样式
+.goods_list{
+	.goods_item{
+		padding: 0 20rpx;
+		height: 240rpx;
+		border-bottom: 1px solid #ccc;
+		.url{
+			display: flex;
+			height: 100%;
+		}
+		.item_a{
+			flex: 4;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.item_img{
+				width: 60%;
+			}
+		}
+		.item_right{
+			flex: 6;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 48rpx 0;
+			.item_title{
+				display: -webkit-box;
+				overflow: hidden;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2;
+			}
+			.item_price{
+				color: var(--themeColor);
+				font-weight: 600;
+			}
+		}
+	}
+}

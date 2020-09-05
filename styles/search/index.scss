@@ -1,0 +1,25 @@
+// 搜索页样式
+page{
+	background-color: #edece8;
+	padding: 0 20rpx;
+}
+.search{
+	.top{
+		input{
+			padding: 0 20rpx;
+			margin: 20rpx 0;
+			background: #fff;
+			height: 70rpx;
+			line-height: 4;
+		}
+	}
+	.item{
+		margin-bottom: 2px;
+		padding: 0 20rpx;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		background-color: #FFFFFF;
+		line-height: 3;
+	}
+}
